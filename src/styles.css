@@ -1,0 +1,56 @@
+@import "https://highlightjs.org/static/demo/styles/railscasts.css";
+html,
+body,
+#root {
+  height: 100%;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100%;
+}
+
+pre {
+  text-align: left;
+  margin-top: 0;
+}
+
+pre,
+code {
+  height: 100%;
+  border-radius: 0 8px 8px 0;
+}
+
+.data-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  height: 100%;
+}
+
+.formeo-data {
+  flex-grow: 1;
+}
+
+.formeo-data h2 button {
+  margin-left: 8px;
+}
+
+.form-builder-data {
+  flex-shrink: 0;
+}
+
+textarea {
+  width: 500px;
+  height: 100%;
+  padding: 8px;
+  display: block;
+  border-radius: 8px 0 0 8px;
+  border: 1px solid #ccc;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #83d0f2;
+  box-shadow: 0 0 0 1px #83d0f2 inset;
+}

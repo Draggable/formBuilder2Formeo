@@ -1,0 +1,23 @@
+{
+  "name": "formbuilder-to-formeo-converter",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "lodash": "4.17.10",
+    "react": "16.3.2",
+    "react-clipboard.js": "2.0.0",
+    "react-dom": "16.3.2",
+    "react-highlight.js": "1.0.7",
+    "react-scripts": "1.1.4",
+    "uuid": "3.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
