@@ -77,12 +77,12 @@ const typeModifiers = {
   button: fieldData => {
     const { subtype = "button", ...rest } = fieldData;
     rest.tag = "button";
-    rest.options = {
+    rest.options = [{
       label: startCase(subtype),
       value: rest.value,
       type: subtype,
       className: rest.className
-    };
+    }];
     return rest;
   }
 };
